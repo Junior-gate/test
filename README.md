@@ -2,7 +2,8 @@
 
 Данный проект представляет собой онлайн-сервис по мониторингу и уничтожению опасных астероидов на основе данных API NASA.
 
-# Подробнее здесь https://docs.google.com/document/d/1bSC3hgaYe69FJFKKNFHKokJ2Rs0bxkYQ9ixnBS8xn-M/edit#heading=h.zhvqi4h9zsj2
+# Подробнее здесь 
+https://docs.google.com/document/d/1bSC3hgaYe69FJFKKNFHKokJ2Rs0bxkYQ9ixnBS8xn-M/edit#heading=h.zhvqi4h9zsj2
 
 # Технические детали
 Для разработки проекта использовались следующие технологии:
