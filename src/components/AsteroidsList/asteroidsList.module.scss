@@ -1,0 +1,95 @@
+@use '/src/styles/index.scss' as *;
+
+.nameDiameter {
+  display: flex;
+  flex-direction: column;
+}
+
+.dimensions {
+  display: flex;
+
+  .marginTop {
+    margin-top: 8px;
+  }
+}
+
+.item {
+  margin-bottom: 25px;
+}
+.date {
+  margin-bottom: 10px;
+  font-size: 24px;
+  font-weight: $fw-bold;
+  line-height: 32px;
+}
+
+.distance {
+  height: 34px;
+  font-size: 16px;
+  font-weight: $fw-regular;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  position: relative;
+}
+.distance:after {
+  display: block;
+  content: '';
+  position: absolute;
+  left: -3px;
+  bottom: -4px;
+  border-top: 4px solid transparent;
+  border-bottom: 4px solid transparent;
+  border-right: 8px solid rgb(127, 127, 127);
+}
+.distance:before {
+  display: block;
+  content: '';
+  position: absolute;
+  right: -3px;
+  bottom: -4px;
+  border-top: 4px solid transparent;
+  border-bottom: 4px solid transparent;
+  border-left: 8px solid rgb(127, 127, 127);
+}
+
+.name {
+  font-family: $HelveticaBold;
+  font-weight: $fw-bold;
+  color: white;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0px;
+  position: relative;
+}
+
+.btnWrapper {
+  display: flex;
+  align-items: center;
+  margin-top: 6px;
+}
+
+.orderBtn {
+  margin-right: 10px;
+  padding: 2px 12px 2px 12px;
+  border-radius: 16px;
+  background: rgba(248, 102, 0, 0.15);
+  color: #f86600;
+  font-size: 11px;
+  font-weight: $fw-bold;
+  line-height: 20px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  transition: all 0.3s ease-in-out;
+  &:hover {
+    background: #f86600;
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+  }
+}
+.added {
+  color: #fff;
+}
+.image {
+  margin: 0 10px;
+}
