@@ -1,0 +1,26 @@
+$fw-light: 300;
+$fw-regular: 400;
+$fw-medium: 500;
+$fw-semibold: 600;
+$fw-bold: 700;
+$fw-extrabold: 800;
+
+$PassionOne: PassionOne, sans-serif;
+$HelveticaRegular: HelveticaRegular, sans-serif;
+$HelveticaBold: HelveticaBold, sans-serif;
+@font-face {
+  font-family: HelveticaRegular;
+  src: url('../fonts/HelveticaRegular.woff') format('woff');
+  font-weight: 400;
+}
+@font-face {
+  font-family: HelveticaBold;
+  src: url('../fonts/HelveticaBold.woff') format('woff');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: PassionOne;
+  src: url('../fonts/PassionOneRegular.woff2') format('woff2');
+  font-weight: 400;
+}
